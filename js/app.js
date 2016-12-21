@@ -3,7 +3,8 @@ $('#about').parallax({
 	speed: 0.8,
 })
 .css({
-	backgroundImage: 'linear-gradient(rgba(0,0,0,.5) 60%, transparent)'
+	backgroundImage: 'linear-gradient(rgba(0,0,0,.5) 60%, transparent)',
+	height: $(window).height();
 });
 
 $('#rodape').parallax({
