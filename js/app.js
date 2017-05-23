@@ -1,5 +1,5 @@
 $('#about').parallax({
-	imageSrc: '../img/img-header.jpg',
+	imageSrc: '../img/header.png',
 	speed: 0.8,
 })
 .css({
