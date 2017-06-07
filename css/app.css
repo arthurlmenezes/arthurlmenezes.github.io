@@ -55,7 +55,7 @@
 
 .header-img {
     height: 47.8em;
-    /* background-image: linear-gradient(rgba(0,0,0,.5) 60%, transparent), url(../img/img-header.jpg); */
+    background-image: linear-gradient(rgba(0,0,0,.5) 60%, transparent);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
