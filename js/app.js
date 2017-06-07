@@ -1,12 +1,10 @@
-setTimeout(function() {
-    $('#about').parallax({
+$('#about').parallax({
 	imageSrc: '../img/header.png',
 	speed: 0.8,
-    })
-    .css({
+})
+.css({
 	backgroundImage: 'linear-gradient(rgba(0,0,0,.5) 60%, transparent)'
-     });
-}, 1000);
+});
 
 
 $('#rodape').parallax({
