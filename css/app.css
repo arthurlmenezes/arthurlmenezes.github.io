@@ -54,7 +54,7 @@
 }
 
 .header-img {
-    height: 100%;
+    height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,.5) 60%, transparent);
     background-repeat: no-repeat;
     background-size: cover;
