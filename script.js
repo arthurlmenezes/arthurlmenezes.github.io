@@ -9,5 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
             resposta = "";  // Reinicia para repetir a pergunta
         }
 
-    } while (resposta.toLocaleLowerCase() != 'Arthur'.toLowerCase());
+    } while (resposta.toLocaleLowerCase() !== 'Arthur'.toLowerCase());
+
+    if(resposta.toLocaleLowerCase() == 'Arthur'.toLowerCase()) {
+        document.querySelector(".content").style.display = "flex";
+    }
 });
