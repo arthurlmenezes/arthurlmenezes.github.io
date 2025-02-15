@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             resposta = "";  // Reinicia para repetir a pergunta
         }
 
-    } while (resposta.toLocaleLowerCase() !== 'Arthur'.toLowerCase());
+    } while (resposta.toLocaleLowerCase().trim() !== 'Arthur'.toLowerCase());
 
     if(resposta.toLocaleLowerCase().trim() == 'Arthur'.toLowerCase()) {
         document.querySelector(".content").style.display = "flex";
