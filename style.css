@@ -1,0 +1,66 @@
+body {
+    margin: 0 auto;
+    padding: 0 2em;
+    height: 100vh;
+  
+    font-family: "Luckiest Guy", cursive;
+  }
+  
+  div.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    height: 100%;
+  }
+  
+  div.content .image img {
+    width: 15rem;
+  
+    animation: pulse 2s ease-in-out infinite alternate;
+  }
+  
+  div.content .message h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 0;
+  
+    background: linear-gradient(to top, red, #bc0503);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  
+    text-align: center;
+  }
+  
+  div.content .message h3 {
+    font-size: 5em;
+    text-align: center;
+    color: #bc0503;
+  
+    text-shadow: 4px 4px 8px red;
+  
+    animation: float 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes pulse {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
