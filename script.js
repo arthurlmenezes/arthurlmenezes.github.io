@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     } while (resposta.toLocaleLowerCase() !== 'Arthur'.toLowerCase());
 
-    if(resposta.toLocaleLowerCase() == 'Arthur'.toLowerCase()) {
+    if(resposta.toLocaleLowerCase().trim() == 'Arthur'.toLowerCase()) {
         document.querySelector(".content").style.display = "flex";
     }
 });
